@@ -8,7 +8,7 @@ public class hm_08 {
         int age=scn.nextInt();
         System.out.print("城市 ");
         String city=scn.next();
-        System.out.print(name+", "+age+"years old "+city);
+        System.out.print(name+", "+age+"years old, "+city);
         scn.close();
 
 
