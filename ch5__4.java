@@ -3,15 +3,16 @@ public class ch5__4 {
         int a=50,b=20;
         char oper='+';
 
+
         switch(oper){
-            case '+':
+            case'+':
                 System.out.println(a+"+"+b+"="+(a+b));
                 break;
             case'-':
-                System.out.println(a+"-"+b+"="+(a-b));
-                break;
-            default:
-                System.out.println("Unknown expression !!");    
+            System.out.println(a+"-"+b+"="+(a-b));
+            break;
+        default:
+            System.out.println("Unknown expression!!");        
 
 
         }
